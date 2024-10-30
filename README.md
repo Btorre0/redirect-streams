@@ -11,11 +11,11 @@ No need to worry about spaces or quoted strings in its parameters. (It is not re
 You'll probably love this link: https://www.rozmichelle.com/pipes-forks-dups/Links to an external site. 
 
 ## keeping track:
-    - Oct. 28:
-        - Complete:
-            - do basics of checking argument
-            - set up input and output file
-            - from website:
+- Oct. 28:
+    - Complete:
+        - do basics of checking argument
+        - set up input and output file
+        - from website:
 ```c 
 // if first command in pipeline has input redirection
 if (hasInputFile && is1stCommand) { 
@@ -31,9 +31,9 @@ if (hasOutputFile && isLastCommand) {
   close(fdout);
 }
 ```
-    - Oct. 29:
-            - create child proccess (pid == 0)
-            - create parent process
+- Oct. 29:
+    - create child proccess (pid == 0)
+    - create parent process
 
-            - Make a Makefile
-            - check input/output.txt
+    - Make a Makefile
+    - check input/output.txt
